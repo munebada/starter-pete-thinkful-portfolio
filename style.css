@@ -18,8 +18,24 @@ h3 {
 
 /* Header */
 header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation {
   text-align: center;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.about-text {
+  text-align: left;
+}
+
 
 /* Containers */
 div {
@@ -35,6 +51,15 @@ article {
 article div {
   text-align: center;
   width: 100%;
+}
+
+.port {
+  display: flex;
+  justify-content: center;
+}
+
+.port, p {
+  font-size: 14px;
 }
 
 /* Paragraphs */
